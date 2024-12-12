@@ -1,4 +1,4 @@
-# por defecto todo lo que ingres el usuario será ingresado como string,
+# por defecto todo lo que ingrese el usuario será ingresado como string,
 # luego hay que convertirlo al tipo deseado o necesario.
 # tenemos funciones para eso
 #       int()       pasa a un integer
@@ -10,8 +10,7 @@
 #                   los falsy son: "" (string vacío), 0 y el objeto None
 
 
-
-#x = input("")
+x = input("")
 print(bool(""))
 print(bool("0"))
 print(bool(None))

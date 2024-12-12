@@ -16,11 +16,13 @@ print(animal.strip().capitalize())
 print(animal.lstrip())
 # sacar los espacios de la derecha de mi string
 print(animal.rstrip())
-# Encontrar el indice de una cadena que buscamos dentro de nuestra variable, si devuelve -1 es porque no existe
+# Encontrar el indice de una cadena que buscamos dentro de nuestra variable,
+# si devuelve -1 es porque no existe
 print(animal.find("cH"))
-# reemplazar determinados caracteres por otros, el primero es el que buscamos, el segundo el que queremos que quede
+# reemplazar determinados caracteres por otros, el primero es el que buscamos,
+# el segundo el que queremos que quede
 print(animal.replace("nCH", "j"))
-#Saber si una cadena de caracteres se encuentra en el string, devolviendo un boolean
+# Saber si una cadena de caracteres se encuentra en el string, devolviendo un boolean
 print("nCH" in animal)
-#Saber si una cadena de caracteres NO se encuentra en el string, devolviendo un boolean
+# Saber si una cadena de caracteres NO se encuentra en el string, devolviendo un boolean
 print("nCH" not in animal)
