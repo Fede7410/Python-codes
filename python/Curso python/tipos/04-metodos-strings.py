@@ -21,7 +21,7 @@ print(animal.rstrip())
 print(animal.find("cH"))
 # reemplazar determinados caracteres por otros, el primero es el que buscamos,
 # el segundo el que queremos que quede
-print(animal.replace("nCH", "j"))
+print(animal.replace(" ", ""))
 # Saber si una cadena de caracteres se encuentra en el string, devolviendo un boolean
 print("nCH" in animal)
 # Saber si una cadena de caracteres NO se encuentra en el string, devolviendo un boolean

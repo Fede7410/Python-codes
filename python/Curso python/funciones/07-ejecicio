@@ -1,0 +1,10 @@
+# Función para definir si un texto es palindromo
+
+def es_palindromo(texto):
+    texto = texto.replace(" ", "")
+    print(texto)
+
+
+palabra = input(" Ingrese la plabra deseada")
+
+es_palindromo(palabra)
