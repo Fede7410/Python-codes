@@ -1,10 +1,23 @@
-# Función para definir si un texto es palindromo
+# Programa para ver si un string es palindromo
 
 def es_palindromo(texto):
-    texto = texto.replace(" ", "")
-    print(texto)
+    # Función que define si un string es palindromo
+    sin_espacio = texto.replace(" ", "")
+    i = len(sin_espacio)-1
+    al_reves = ""
+    while i >= 0:
+        al_reves += sin_espacio[i]
+        i -= 1
+    mensaje = "Es palindromo" if sin_espacio.lower(
+    ) == al_reves.lower() else "No es palindromo"
+    print(mensaje)
 
 
-palabra = input(" Ingrese la plabra deseada")
-
-es_palindromo(palabra)
+while True:
+    palabra = input(
+        "Ingrese la plabra que desea saber si es palindromo, sino ingrese salir ")
+    if palabra.lower() == "salir":
+        print("Gracias por utilizar el programa ")
+        break
+    else:
+        es_palindromo(palabra)
