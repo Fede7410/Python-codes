@@ -1,5 +1,5 @@
 mascotas = ["Wolfgang", "Pelusa", "Pulga", "Copito"]
-# Imprimimos el lemento de la lista que queremos, siendo el primero el 0
+# Imprimimos el elemento de la lista que queremos, siendo el primero el 0
 print(mascotas[0])
 mascotas[0] = "Bicho"
 print(mascotas)
