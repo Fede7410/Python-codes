@@ -38,3 +38,9 @@ def ordena(elemento):  # retornara el elemento por el que queremos que el listad
 
 usuarios.sort(key=ordena)
 print(usuarios)  # [['Felipe', 1], ['Chanchito', 4], ['Pulga', 5]]
+
+# Otra forma de hacerlo es con una función lambda
+
+# Como argumento primero pasamos el parametro que queremos ordenar y despues el indice.
+usuarios.sort(key=lambda el: el[1])
+print(usuarios)  # [['Felipe', 1], ['Chanchito', 4], ['Pulga', 5]]
